@@ -1,0 +1,60 @@
+#top {
+  width: 424px;
+  height: 105px;
+  background-color: #f6f6f6;
+  border-bottom: 1px solid black;
+}
+
+#logo-container{
+  padding-top: 15px;
+  width: 424px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+#logo{
+  width: 100px;
+  height: 40px;
+  background-color: #81b55b;
+  border-radius: 30px;
+  display: flex;
+  border: 1px solid black;
+  justify-content: center;
+}
+
+#options-bar {
+  width: 424px;
+  height: 30px;
+  display: flex;
+}
+
+.sides{
+  display: flex;
+  height: 30px;
+  width: 200px;
+  justify-content: space-around;
+}
+
+#middle-spacer{
+  display: flex;
+  height: 30px;
+  width: 25px;
+}
+
+.options{
+  height: 10px;
+  width: 60px;
+  display: flex;
+  font-family: Arial;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  border-radius: 3px;
+}
+
+.logo-text{
+  font-size: 13px;
+  font-family: Arial;
+}

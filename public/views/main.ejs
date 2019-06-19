@@ -1,0 +1,104 @@
+<% include ./public/views/header.ejs %>
+
+<div id="outer">
+    <div id="top">
+        <div id="logo-container">
+            <div id="logo">
+                <div class="logo-text">
+                    <p>Golf</p>
+                </div>
+                <img src="./public/images/Golf-Ball-icon.png" height="40px" width="40px" alt="Image of Golf ball">
+                <div class="logo-text">
+                    <p>Book</p>
+                </div>
+            </div>
+        </div>
+        <div id="options-bar">
+            <div class="sides">
+                <div class="dropdown">
+                    <button class="dropbtn">Contact Us</button>
+                    <div class="dropdown-content">
+                        <a href="#">wfordyce28@gmail.com</a>
+                        <a href="#">231-373-3852</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Rules</button>
+                    <div class="dropdown-content">
+                        <a href="#">USGA.com</a>
+                        <a href="#">IGFGolf.com</a>
+                    </div>
+                </div>
+            </div>
+            <div id="middle-spacer">
+
+            </div>
+            <div class="sides">
+                <div class="dropdown">
+                    <button class="dropbtn">Courses</button>
+                    <div class="dropdown-content">
+                        <a href="#">Boyne Mountain</a>
+                        <a href="#">Boyne Highlands</a>
+                        <a href="#">Bay Harbor</a>
+                        <a href="#">Crooked Tree</a>
+                        <a href="#">Bay View</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Pricing</button>
+                    <div class="dropdown-content">
+                        <a href="#">Free!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="middle">
+        <div id="left">
+            <img src="./public/images/golfthin.png" width="155px" height="200px" alt="Image of a golf course">
+        </div>
+        <div id="right">
+            <div id="header">
+                <h3 id="header-text">About GolfBook</h3>
+            </div>
+            <div id="spacer">
+
+            </div>
+            <div id="content">
+                <h5>GolfBook is an all new progressive web app specifically designed
+                    to help you book your tee times at courses around the nation.
+                    We do this by connecting you to courses through our website
+                    and our book now button. We hope you find us useful! </h5>
+            </div>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="up">
+            <div id="outside">
+                <div id="ileft">
+
+                </div>
+                <div id="iright">
+                    <div id="inside">
+                        <h4>Book Now!</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="down">
+
+        </div>
+    </div>
+</div>
+
+<script src="./public/javascripts/golfbook.js" type="module"></script>
+
+<script>
+    if('serviceWorker' in navigator) {
+        navigator.serviceWorker
+            .register('/serviceworker.js')
+            .then(function() { console.log("Service Worker Registered"); });
+    }
+</script>
+
+<% include ./public/views/footer.ejs %>

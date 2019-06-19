@@ -1,0 +1,16 @@
+{
+  "name": "GolfBook",
+  "short_name": "GolfBook",
+  "start_url": "public/views/main.ejs",
+  "icons": [
+    {
+      "src": "/public/favicons/ball512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#2F3BA2",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait"
+}
